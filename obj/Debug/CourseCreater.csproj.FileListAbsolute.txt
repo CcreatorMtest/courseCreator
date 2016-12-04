@@ -1,0 +1,9 @@
+Z:\MakeTest\CourseCreater0\bin\Debug\CourseCreater.exe.config
+Z:\MakeTest\CourseCreater0\bin\Debug\CourseCreater.exe
+Z:\MakeTest\CourseCreater0\bin\Debug\CourseCreater.pdb
+Z:\MakeTest\CourseCreater0\obj\Debug\CourseCreater.csprojResolveAssemblyReference.cache
+Z:\MakeTest\CourseCreater0\obj\Debug\CourseCreater.CourseCreater.resources
+Z:\MakeTest\CourseCreater0\obj\Debug\CourseCreater.Properties.Resources.resources
+Z:\MakeTest\CourseCreater0\obj\Debug\CourseCreater.csproj.GenerateResource.Cache
+Z:\MakeTest\CourseCreater0\obj\Debug\CourseCreater.exe
+Z:\MakeTest\CourseCreater0\obj\Debug\CourseCreater.pdb
