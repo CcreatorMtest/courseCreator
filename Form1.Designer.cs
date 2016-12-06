@@ -128,8 +128,7 @@
             this.курсToolStripMenuItem});
             this.menuPanel.Location = new System.Drawing.Point(0, 0);
             this.menuPanel.Name = "menuPanel";
-            this.menuPanel.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuPanel.Size = new System.Drawing.Size(592, 24);
+            this.menuPanel.Size = new System.Drawing.Size(758, 28);
             this.menuPanel.TabIndex = 0;
             this.menuPanel.Text = "menuStrip1";
             // 
@@ -143,7 +142,7 @@
             this.сохранитьКакToolStripMenuItem,
             this.toolStripSeparator2});
             this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
-            this.файлToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.файлToolStripMenuItem.Size = new System.Drawing.Size(57, 24);
             this.файлToolStripMenuItem.Text = "Файл";
             // 
             // создатьToolStripMenuItem
@@ -151,7 +150,7 @@
             this.создатьToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.создатьToolStripMenuItem.ForeColor = System.Drawing.Color.MidnightBlue;
             this.создатьToolStripMenuItem.Name = "создатьToolStripMenuItem";
-            this.создатьToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.создатьToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.создатьToolStripMenuItem.Text = "Создать";
             this.создатьToolStripMenuItem.Click += new System.EventHandler(this.создатьToolStripMenuItem_Click);
             // 
@@ -159,7 +158,7 @@
             // 
             this.открытьToolStripMenuItem.ForeColor = System.Drawing.Color.MidnightBlue;
             this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.открытьToolStripMenuItem.Text = "Открыть";
             this.открытьToolStripMenuItem.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
             // 
@@ -167,7 +166,7 @@
             // 
             this.toolStripSeparator1.ForeColor = System.Drawing.Color.LightSlateGray;
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(150, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(181, 6);
             // 
             // сохранитьToolStripMenuItem
             // 
@@ -176,14 +175,14 @@
             this.задачуToolStripMenuItem});
             this.сохранитьToolStripMenuItem.ForeColor = System.Drawing.Color.MidnightBlue;
             this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
-            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.сохранитьToolStripMenuItem.Text = "Сохранить";
             // 
             // курсToolStripMenuItem2
             // 
             this.курсToolStripMenuItem2.ForeColor = System.Drawing.Color.MidnightBlue;
             this.курсToolStripMenuItem2.Name = "курсToolStripMenuItem2";
-            this.курсToolStripMenuItem2.Size = new System.Drawing.Size(110, 22);
+            this.курсToolStripMenuItem2.Size = new System.Drawing.Size(130, 26);
             this.курсToolStripMenuItem2.Text = "курс";
             this.курсToolStripMenuItem2.Click += new System.EventHandler(this.курсToolStripMenuItem2_Click);
             // 
@@ -191,7 +190,7 @@
             // 
             this.задачуToolStripMenuItem.ForeColor = System.Drawing.Color.MidnightBlue;
             this.задачуToolStripMenuItem.Name = "задачуToolStripMenuItem";
-            this.задачуToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.задачуToolStripMenuItem.Size = new System.Drawing.Size(130, 26);
             this.задачуToolStripMenuItem.Text = "задачу";
             this.задачуToolStripMenuItem.Click += new System.EventHandler(this.задачуToolStripMenuItem_Click);
             // 
@@ -199,7 +198,7 @@
             // 
             this.сохранитьКакToolStripMenuItem.ForeColor = System.Drawing.Color.MidnightBlue;
             this.сохранитьКакToolStripMenuItem.Name = "сохранитьКакToolStripMenuItem";
-            this.сохранитьКакToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.сохранитьКакToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.сохранитьКакToolStripMenuItem.Text = "Сохранить как";
             this.сохранитьКакToolStripMenuItem.Click += new System.EventHandler(this.сохранитьКакToolStripMenuItem_Click);
             // 
@@ -207,14 +206,14 @@
             // 
             this.toolStripSeparator2.ForeColor = System.Drawing.Color.LightSlateGray;
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(150, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(181, 6);
             // 
             // правкаToolStripMenuItem
             // 
             this.правкаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.вернутьсяКПервоначальномуВариантуToolStripMenuItem});
             this.правкаToolStripMenuItem.Name = "правкаToolStripMenuItem";
-            this.правкаToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.правкаToolStripMenuItem.Size = new System.Drawing.Size(72, 24);
             this.правкаToolStripMenuItem.Text = "Правка";
             // 
             // вернутьсяКПервоначальномуВариантуToolStripMenuItem
@@ -224,14 +223,14 @@
             this.задачиToolStripMenuItem});
             this.вернутьсяКПервоначальномуВариантуToolStripMenuItem.ForeColor = System.Drawing.Color.MidnightBlue;
             this.вернутьсяКПервоначальномуВариантуToolStripMenuItem.Name = "вернутьсяКПервоначальномуВариантуToolStripMenuItem";
-            this.вернутьсяКПервоначальномуВариантуToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
+            this.вернутьсяКПервоначальномуВариантуToolStripMenuItem.Size = new System.Drawing.Size(366, 26);
             this.вернутьсяКПервоначальномуВариантуToolStripMenuItem.Text = "Вернуться к первоначальному варианту";
             // 
             // курсToolStripMenuItem1
             // 
             this.курсToolStripMenuItem1.ForeColor = System.Drawing.Color.MidnightBlue;
             this.курсToolStripMenuItem1.Name = "курсToolStripMenuItem1";
-            this.курсToolStripMenuItem1.Size = new System.Drawing.Size(113, 22);
+            this.курсToolStripMenuItem1.Size = new System.Drawing.Size(133, 26);
             this.курсToolStripMenuItem1.Text = "Курса";
             this.курсToolStripMenuItem1.Click += new System.EventHandler(this.курсToolStripMenuItem1_Click);
             // 
@@ -239,7 +238,7 @@
             // 
             this.задачиToolStripMenuItem.ForeColor = System.Drawing.Color.MidnightBlue;
             this.задачиToolStripMenuItem.Name = "задачиToolStripMenuItem";
-            this.задачиToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
+            this.задачиToolStripMenuItem.Size = new System.Drawing.Size(133, 26);
             this.задачиToolStripMenuItem.Text = "Задачи";
             this.задачиToolStripMenuItem.Click += new System.EventHandler(this.задачиToolStripMenuItem_Click);
             // 
@@ -249,31 +248,30 @@
             this.добавитьЗадачуToolStripMenuItem,
             this.toolStripSeparator3});
             this.курсToolStripMenuItem.Name = "курсToolStripMenuItem";
-            this.курсToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
+            this.курсToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
             this.курсToolStripMenuItem.Text = "Курс";
             // 
             // добавитьЗадачуToolStripMenuItem
             // 
             this.добавитьЗадачуToolStripMenuItem.ForeColor = System.Drawing.Color.MidnightBlue;
             this.добавитьЗадачуToolStripMenuItem.Name = "добавитьЗадачуToolStripMenuItem";
-            this.добавитьЗадачуToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
+            this.добавитьЗадачуToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.добавитьЗадачуToolStripMenuItem.Text = "Добавить задачу";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.ForeColor = System.Drawing.Color.LightSlateGray;
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(162, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(198, 6);
             // 
             // WorkPanel
             // 
             this.WorkPanel.Controls.Add(this.picturePanel);
             this.WorkPanel.Controls.Add(this.TaskPanels);
             this.WorkPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.WorkPanel.Location = new System.Drawing.Point(0, 24);
-            this.WorkPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WorkPanel.Location = new System.Drawing.Point(0, 28);
             this.WorkPanel.Name = "WorkPanel";
-            this.WorkPanel.Size = new System.Drawing.Size(592, 315);
+            this.WorkPanel.Size = new System.Drawing.Size(758, 365);
             this.WorkPanel.TabIndex = 1;
             // 
             // picturePanel
@@ -284,19 +282,17 @@
             this.picturePanel.Controls.Add(this.CreateCoursebtn);
             this.picturePanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picturePanel.Location = new System.Drawing.Point(0, 0);
-            this.picturePanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picturePanel.Name = "picturePanel";
-            this.picturePanel.Size = new System.Drawing.Size(592, 315);
+            this.picturePanel.Size = new System.Drawing.Size(758, 365);
             this.picturePanel.TabIndex = 1;
             // 
             // OpenCoursebtn
             // 
             this.OpenCoursebtn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.OpenCoursebtn.Location = new System.Drawing.Point(195, 274);
-            this.OpenCoursebtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.OpenCoursebtn.MaximumSize = new System.Drawing.Size(225, 32);
+            this.OpenCoursebtn.Location = new System.Drawing.Point(245, 315);
+            this.OpenCoursebtn.MaximumSize = new System.Drawing.Size(300, 40);
             this.OpenCoursebtn.Name = "OpenCoursebtn";
-            this.OpenCoursebtn.Size = new System.Drawing.Size(194, 24);
+            this.OpenCoursebtn.Size = new System.Drawing.Size(259, 29);
             this.OpenCoursebtn.TabIndex = 1;
             this.OpenCoursebtn.Text = "Открыть курс";
             this.OpenCoursebtn.UseVisualStyleBackColor = true;
@@ -305,11 +301,10 @@
             // CreateCoursebtn
             // 
             this.CreateCoursebtn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.CreateCoursebtn.Location = new System.Drawing.Point(195, 242);
-            this.CreateCoursebtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.CreateCoursebtn.MaximumSize = new System.Drawing.Size(225, 32);
+            this.CreateCoursebtn.Location = new System.Drawing.Point(245, 275);
+            this.CreateCoursebtn.MaximumSize = new System.Drawing.Size(300, 40);
             this.CreateCoursebtn.Name = "CreateCoursebtn";
-            this.CreateCoursebtn.Size = new System.Drawing.Size(194, 25);
+            this.CreateCoursebtn.Size = new System.Drawing.Size(259, 31);
             this.CreateCoursebtn.TabIndex = 0;
             this.CreateCoursebtn.Text = "Создать курс";
             this.CreateCoursebtn.UseVisualStyleBackColor = true;
@@ -322,8 +317,7 @@
             this.TaskPanels.Cursor = System.Windows.Forms.Cursors.VSplit;
             this.TaskPanels.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TaskPanels.Location = new System.Drawing.Point(0, 0);
-            this.TaskPanels.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.TaskPanels.MinimumSize = new System.Drawing.Size(565, 210);
+            this.TaskPanels.MinimumSize = new System.Drawing.Size(753, 258);
             this.TaskPanels.Name = "TaskPanels";
             // 
             // TaskPanels.Panel1
@@ -344,9 +338,8 @@
             this.TaskPanels.Panel2.Controls.Add(this.TaskNamePanel);
             this.TaskPanels.Panel2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.TaskPanels.Panel2MinSize = 560;
-            this.TaskPanels.Size = new System.Drawing.Size(592, 315);
-            this.TaskPanels.SplitterDistance = 197;
-            this.TaskPanels.SplitterWidth = 3;
+            this.TaskPanels.Size = new System.Drawing.Size(758, 365);
+            this.TaskPanels.SplitterDistance = 188;
             this.TaskPanels.TabIndex = 0;
             // 
             // SaveCourseButton
@@ -355,10 +348,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SaveCourseButton.BackColor = System.Drawing.Color.Lavender;
             this.SaveCourseButton.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.SaveCourseButton.Location = new System.Drawing.Point(8, 282);
-            this.SaveCourseButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SaveCourseButton.Location = new System.Drawing.Point(10, 323);
             this.SaveCourseButton.Name = "SaveCourseButton";
-            this.SaveCourseButton.Size = new System.Drawing.Size(130, 23);
+            this.SaveCourseButton.Size = new System.Drawing.Size(165, 28);
             this.SaveCourseButton.TabIndex = 0;
             this.SaveCourseButton.Text = "Сохранить курс";
             this.SaveCourseButton.UseVisualStyleBackColor = false;
@@ -371,10 +363,9 @@
             this.TaskCreateButton.BackColor = System.Drawing.Color.Lavender;
             this.TaskCreateButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TaskCreateButton.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.TaskCreateButton.Location = new System.Drawing.Point(8, 249);
-            this.TaskCreateButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TaskCreateButton.Location = new System.Drawing.Point(10, 282);
             this.TaskCreateButton.Name = "TaskCreateButton";
-            this.TaskCreateButton.Size = new System.Drawing.Size(130, 24);
+            this.TaskCreateButton.Size = new System.Drawing.Size(165, 29);
             this.TaskCreateButton.TabIndex = 0;
             this.TaskCreateButton.Text = "Добавить задачу";
             this.TaskCreateButton.UseVisualStyleBackColor = false;
@@ -389,11 +380,10 @@
             this.TaskListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TaskListBox.ForeColor = System.Drawing.Color.MidnightBlue;
             this.TaskListBox.FormattingEnabled = true;
-            this.TaskListBox.ItemHeight = 17;
-            this.TaskListBox.Location = new System.Drawing.Point(8, 31);
-            this.TaskListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TaskListBox.ItemHeight = 20;
+            this.TaskListBox.Location = new System.Drawing.Point(10, 38);
             this.TaskListBox.Name = "TaskListBox";
-            this.TaskListBox.Size = new System.Drawing.Size(132, 191);
+            this.TaskListBox.Size = new System.Drawing.Size(165, 204);
             this.TaskListBox.TabIndex = 1;
             this.TaskListBox.SelectedIndexChanged += new System.EventHandler(this.TaskListBox_SelectedIndexChanged);
             // 
@@ -402,10 +392,9 @@
             this.TaskListLabel.AutoSize = true;
             this.TaskListLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TaskListLabel.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.TaskListLabel.Location = new System.Drawing.Point(6, 9);
-            this.TaskListLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.TaskListLabel.Location = new System.Drawing.Point(8, 11);
             this.TaskListLabel.Name = "TaskListLabel";
-            this.TaskListLabel.Size = new System.Drawing.Size(98, 17);
+            this.TaskListLabel.Size = new System.Drawing.Size(125, 20);
             this.TaskListLabel.TabIndex = 0;
             this.TaskListLabel.Text = "Список задач";
             // 
@@ -414,10 +403,9 @@
             this.TaskRedaktorPanel.BackColor = System.Drawing.SystemColors.ControlDark;
             this.TaskRedaktorPanel.Controls.Add(this.TaskRedaktorBox);
             this.TaskRedaktorPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TaskRedaktorPanel.Location = new System.Drawing.Point(0, 26);
-            this.TaskRedaktorPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TaskRedaktorPanel.Location = new System.Drawing.Point(0, 31);
             this.TaskRedaktorPanel.Name = "TaskRedaktorPanel";
-            this.TaskRedaktorPanel.Size = new System.Drawing.Size(438, 170);
+            this.TaskRedaktorPanel.Size = new System.Drawing.Size(562, 186);
             this.TaskRedaktorPanel.TabIndex = 3;
             // 
             // TaskRedaktorBox
@@ -427,11 +415,10 @@
             this.TaskRedaktorBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TaskRedaktorBox.ForeColor = System.Drawing.Color.MidnightBlue;
             this.TaskRedaktorBox.Location = new System.Drawing.Point(0, 0);
-            this.TaskRedaktorBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TaskRedaktorBox.Multiline = true;
             this.TaskRedaktorBox.Name = "TaskRedaktorBox";
             this.TaskRedaktorBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TaskRedaktorBox.Size = new System.Drawing.Size(438, 170);
+            this.TaskRedaktorBox.Size = new System.Drawing.Size(562, 186);
             this.TaskRedaktorBox.TabIndex = 0;
             this.TaskRedaktorBox.TextChanged += new System.EventHandler(this.TaskRedaktorBox_TextChanged);
             // 
@@ -444,10 +431,9 @@
             this.AnswerPanel.Controls.Add(this.AnswerTypePpanel);
             this.AnswerPanel.Cursor = System.Windows.Forms.Cursors.Default;
             this.AnswerPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.AnswerPanel.Location = new System.Drawing.Point(0, 196);
-            this.AnswerPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerPanel.Location = new System.Drawing.Point(0, 217);
             this.AnswerPanel.Name = "AnswerPanel";
-            this.AnswerPanel.Size = new System.Drawing.Size(438, 117);
+            this.AnswerPanel.Size = new System.Drawing.Size(562, 144);
             this.AnswerPanel.TabIndex = 2;
             // 
             // ChoiseOneAnswerPanel
@@ -464,10 +450,9 @@
             this.ChoiseOneAnswerPanel.Controls.Add(this.AnswerCheckBox2);
             this.ChoiseOneAnswerPanel.Controls.Add(this.AnswerCheckBox1);
             this.ChoiseOneAnswerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ChoiseOneAnswerPanel.Location = new System.Drawing.Point(0, 24);
-            this.ChoiseOneAnswerPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChoiseOneAnswerPanel.Location = new System.Drawing.Point(0, 29);
             this.ChoiseOneAnswerPanel.Name = "ChoiseOneAnswerPanel";
-            this.ChoiseOneAnswerPanel.Size = new System.Drawing.Size(438, 93);
+            this.ChoiseOneAnswerPanel.Size = new System.Drawing.Size(562, 115);
             this.ChoiseOneAnswerPanel.TabIndex = 4;
             this.ChoiseOneAnswerPanel.Visible = false;
             // 
@@ -477,11 +462,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.HelpTextBox);
-            this.panel1.Location = new System.Drawing.Point(311, 12);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel1.MinimumSize = new System.Drawing.Size(102, 61);
+            this.panel1.Location = new System.Drawing.Point(394, 15);
+            this.panel1.MinimumSize = new System.Drawing.Size(135, 74);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(111, 141);
+            this.panel1.Size = new System.Drawing.Size(147, 174);
             this.panel1.TabIndex = 8;
             // 
             // HelpTextBox
@@ -494,13 +478,12 @@
             this.HelpTextBox.Cursor = System.Windows.Forms.Cursors.Default;
             this.HelpTextBox.Enabled = false;
             this.HelpTextBox.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.HelpTextBox.Location = new System.Drawing.Point(4, 2);
-            this.HelpTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.HelpTextBox.MaximumSize = new System.Drawing.Size(101, 60);
-            this.HelpTextBox.MinimumSize = new System.Drawing.Size(101, 60);
+            this.HelpTextBox.Location = new System.Drawing.Point(5, 3);
+            this.HelpTextBox.MaximumSize = new System.Drawing.Size(135, 74);
+            this.HelpTextBox.MinimumSize = new System.Drawing.Size(135, 74);
             this.HelpTextBox.Multiline = true;
             this.HelpTextBox.Name = "HelpTextBox";
-            this.HelpTextBox.Size = new System.Drawing.Size(101, 60);
+            this.HelpTextBox.Size = new System.Drawing.Size(135, 74);
             this.HelpTextBox.TabIndex = 8;
             this.HelpTextBox.Text = "Введите варианты ответов. Верный ответ отметьте галочкой";
             this.HelpTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -512,10 +495,9 @@
             this.AnswerTextBox4.BackColor = System.Drawing.Color.LightSteelBlue;
             this.AnswerTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AnswerTextBox4.ForeColor = System.Drawing.Color.LightSlateGray;
-            this.AnswerTextBox4.Location = new System.Drawing.Point(26, 69);
-            this.AnswerTextBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerTextBox4.Location = new System.Drawing.Point(34, 85);
             this.AnswerTextBox4.Name = "AnswerTextBox4";
-            this.AnswerTextBox4.Size = new System.Drawing.Size(280, 13);
+            this.AnswerTextBox4.Size = new System.Drawing.Size(353, 15);
             this.AnswerTextBox4.TabIndex = 7;
             this.AnswerTextBox4.Text = "Пусто";
             this.AnswerTextBox4.Click += new System.EventHandler(this.AnswerTextBox4_Click);
@@ -529,10 +511,9 @@
             this.AnswerTextBox3.BackColor = System.Drawing.Color.LightSteelBlue;
             this.AnswerTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AnswerTextBox3.ForeColor = System.Drawing.Color.LightSlateGray;
-            this.AnswerTextBox3.Location = new System.Drawing.Point(26, 47);
-            this.AnswerTextBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerTextBox3.Location = new System.Drawing.Point(34, 58);
             this.AnswerTextBox3.Name = "AnswerTextBox3";
-            this.AnswerTextBox3.Size = new System.Drawing.Size(280, 13);
+            this.AnswerTextBox3.Size = new System.Drawing.Size(353, 15);
             this.AnswerTextBox3.TabIndex = 6;
             this.AnswerTextBox3.Text = "Пусто";
             this.AnswerTextBox3.Click += new System.EventHandler(this.AnswerTextBox3_Click);
@@ -546,10 +527,9 @@
             this.AnswerTextBox2.BackColor = System.Drawing.Color.LightSteelBlue;
             this.AnswerTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AnswerTextBox2.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.AnswerTextBox2.Location = new System.Drawing.Point(26, 25);
-            this.AnswerTextBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerTextBox2.Location = new System.Drawing.Point(34, 31);
             this.AnswerTextBox2.Name = "AnswerTextBox2";
-            this.AnswerTextBox2.Size = new System.Drawing.Size(280, 13);
+            this.AnswerTextBox2.Size = new System.Drawing.Size(353, 15);
             this.AnswerTextBox2.TabIndex = 5;
             this.AnswerTextBox2.Text = "Ответ 2";
             this.AnswerTextBox2.Click += new System.EventHandler(this.AnswerTextBox2_Click);
@@ -562,10 +542,9 @@
             this.AnswerTextBox1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.AnswerTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AnswerTextBox1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.AnswerTextBox1.Location = new System.Drawing.Point(26, 2);
-            this.AnswerTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerTextBox1.Location = new System.Drawing.Point(34, 4);
             this.AnswerTextBox1.Name = "AnswerTextBox1";
-            this.AnswerTextBox1.Size = new System.Drawing.Size(280, 13);
+            this.AnswerTextBox1.Size = new System.Drawing.Size(353, 15);
             this.AnswerTextBox1.TabIndex = 4;
             this.AnswerTextBox1.Text = "Ответ 1";
             this.AnswerTextBox1.Click += new System.EventHandler(this.AnswerTextBox1_Click);
@@ -576,10 +555,9 @@
             // 
             this.AnswerCheckBox4.AutoSize = true;
             this.AnswerCheckBox4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AnswerCheckBox4.Location = new System.Drawing.Point(8, 70);
-            this.AnswerCheckBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerCheckBox4.Location = new System.Drawing.Point(10, 86);
             this.AnswerCheckBox4.Name = "AnswerCheckBox4";
-            this.AnswerCheckBox4.Size = new System.Drawing.Size(15, 14);
+            this.AnswerCheckBox4.Size = new System.Drawing.Size(18, 17);
             this.AnswerCheckBox4.TabIndex = 3;
             this.AnswerCheckBox4.UseVisualStyleBackColor = true;
             this.AnswerCheckBox4.CheckedChanged += new System.EventHandler(this.AnswerCheckBox4_CheckedChanged);
@@ -588,10 +566,9 @@
             // 
             this.AnswerCheckBox3.AutoSize = true;
             this.AnswerCheckBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AnswerCheckBox3.Location = new System.Drawing.Point(8, 48);
-            this.AnswerCheckBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerCheckBox3.Location = new System.Drawing.Point(10, 59);
             this.AnswerCheckBox3.Name = "AnswerCheckBox3";
-            this.AnswerCheckBox3.Size = new System.Drawing.Size(15, 14);
+            this.AnswerCheckBox3.Size = new System.Drawing.Size(18, 17);
             this.AnswerCheckBox3.TabIndex = 2;
             this.AnswerCheckBox3.UseVisualStyleBackColor = true;
             this.AnswerCheckBox3.CheckedChanged += new System.EventHandler(this.AnswerCheckBox3_CheckedChanged);
@@ -600,10 +577,9 @@
             // 
             this.AnswerCheckBox2.AutoSize = true;
             this.AnswerCheckBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AnswerCheckBox2.Location = new System.Drawing.Point(8, 26);
-            this.AnswerCheckBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerCheckBox2.Location = new System.Drawing.Point(10, 32);
             this.AnswerCheckBox2.Name = "AnswerCheckBox2";
-            this.AnswerCheckBox2.Size = new System.Drawing.Size(15, 14);
+            this.AnswerCheckBox2.Size = new System.Drawing.Size(18, 17);
             this.AnswerCheckBox2.TabIndex = 1;
             this.AnswerCheckBox2.UseVisualStyleBackColor = true;
             this.AnswerCheckBox2.CheckedChanged += new System.EventHandler(this.AnswerCheckBox2_CheckedChanged);
@@ -612,10 +588,9 @@
             // 
             this.AnswerCheckBox1.AutoSize = true;
             this.AnswerCheckBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AnswerCheckBox1.Location = new System.Drawing.Point(8, 4);
-            this.AnswerCheckBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerCheckBox1.Location = new System.Drawing.Point(10, 5);
             this.AnswerCheckBox1.Name = "AnswerCheckBox1";
-            this.AnswerCheckBox1.Size = new System.Drawing.Size(15, 14);
+            this.AnswerCheckBox1.Size = new System.Drawing.Size(18, 17);
             this.AnswerCheckBox1.TabIndex = 0;
             this.AnswerCheckBox1.UseVisualStyleBackColor = true;
             this.AnswerCheckBox1.CheckedChanged += new System.EventHandler(this.AnswerCheckBox1_CheckedChanged);
@@ -634,10 +609,9 @@
             this.ChoiseAllAnswersPanel.Controls.Add(this.AnswerCheckBox_2);
             this.ChoiseAllAnswersPanel.Controls.Add(this.AnswerCheckBox_1);
             this.ChoiseAllAnswersPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ChoiseAllAnswersPanel.Location = new System.Drawing.Point(0, 24);
-            this.ChoiseAllAnswersPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChoiseAllAnswersPanel.Location = new System.Drawing.Point(0, 29);
             this.ChoiseAllAnswersPanel.Name = "ChoiseAllAnswersPanel";
-            this.ChoiseAllAnswersPanel.Size = new System.Drawing.Size(438, 93);
+            this.ChoiseAllAnswersPanel.Size = new System.Drawing.Size(562, 115);
             this.ChoiseAllAnswersPanel.TabIndex = 9;
             this.ChoiseAllAnswersPanel.Visible = false;
             // 
@@ -647,11 +621,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.textBox1);
-            this.panel3.Location = new System.Drawing.Point(311, 12);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel3.MinimumSize = new System.Drawing.Size(102, 61);
+            this.panel3.Location = new System.Drawing.Point(394, 15);
+            this.panel3.MinimumSize = new System.Drawing.Size(135, 74);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(111, 141);
+            this.panel3.Size = new System.Drawing.Size(147, 174);
             this.panel3.TabIndex = 8;
             // 
             // textBox1
@@ -664,13 +637,12 @@
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBox1.Enabled = false;
             this.textBox1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.textBox1.Location = new System.Drawing.Point(4, 2);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox1.MaximumSize = new System.Drawing.Size(101, 60);
-            this.textBox1.MinimumSize = new System.Drawing.Size(101, 60);
+            this.textBox1.Location = new System.Drawing.Point(5, 3);
+            this.textBox1.MaximumSize = new System.Drawing.Size(135, 74);
+            this.textBox1.MinimumSize = new System.Drawing.Size(135, 74);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(101, 60);
+            this.textBox1.Size = new System.Drawing.Size(135, 74);
             this.textBox1.TabIndex = 8;
             this.textBox1.Text = "Введите варианты ответов. Все верные ответы отметьте галочкой";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -682,10 +654,9 @@
             this.AnswerTextBox_4.BackColor = System.Drawing.Color.LightSteelBlue;
             this.AnswerTextBox_4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AnswerTextBox_4.ForeColor = System.Drawing.Color.LightSlateGray;
-            this.AnswerTextBox_4.Location = new System.Drawing.Point(26, 69);
-            this.AnswerTextBox_4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerTextBox_4.Location = new System.Drawing.Point(34, 85);
             this.AnswerTextBox_4.Name = "AnswerTextBox_4";
-            this.AnswerTextBox_4.Size = new System.Drawing.Size(281, 13);
+            this.AnswerTextBox_4.Size = new System.Drawing.Size(354, 15);
             this.AnswerTextBox_4.TabIndex = 7;
             this.AnswerTextBox_4.Text = "Пусто";
             this.AnswerTextBox_4.Click += new System.EventHandler(this.AnswerTextBox_4_Click);
@@ -699,10 +670,9 @@
             this.AnswerTextBox_3.BackColor = System.Drawing.Color.LightSteelBlue;
             this.AnswerTextBox_3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AnswerTextBox_3.ForeColor = System.Drawing.Color.LightSlateGray;
-            this.AnswerTextBox_3.Location = new System.Drawing.Point(26, 47);
-            this.AnswerTextBox_3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerTextBox_3.Location = new System.Drawing.Point(34, 58);
             this.AnswerTextBox_3.Name = "AnswerTextBox_3";
-            this.AnswerTextBox_3.Size = new System.Drawing.Size(281, 13);
+            this.AnswerTextBox_3.Size = new System.Drawing.Size(354, 15);
             this.AnswerTextBox_3.TabIndex = 6;
             this.AnswerTextBox_3.Text = "Пусто";
             this.AnswerTextBox_3.Click += new System.EventHandler(this.AnswerTextBox_3_Click);
@@ -716,10 +686,9 @@
             this.AnswerTextBox_2.BackColor = System.Drawing.Color.LightSteelBlue;
             this.AnswerTextBox_2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AnswerTextBox_2.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.AnswerTextBox_2.Location = new System.Drawing.Point(26, 25);
-            this.AnswerTextBox_2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerTextBox_2.Location = new System.Drawing.Point(34, 31);
             this.AnswerTextBox_2.Name = "AnswerTextBox_2";
-            this.AnswerTextBox_2.Size = new System.Drawing.Size(281, 13);
+            this.AnswerTextBox_2.Size = new System.Drawing.Size(354, 15);
             this.AnswerTextBox_2.TabIndex = 5;
             this.AnswerTextBox_2.Text = "Ответ 2";
             this.AnswerTextBox_2.Click += new System.EventHandler(this.AnswerTextBox_2_Click);
@@ -733,10 +702,9 @@
             this.AnswerTextBox_1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.AnswerTextBox_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AnswerTextBox_1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.AnswerTextBox_1.Location = new System.Drawing.Point(26, 3);
-            this.AnswerTextBox_1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerTextBox_1.Location = new System.Drawing.Point(34, 4);
             this.AnswerTextBox_1.Name = "AnswerTextBox_1";
-            this.AnswerTextBox_1.Size = new System.Drawing.Size(281, 13);
+            this.AnswerTextBox_1.Size = new System.Drawing.Size(354, 15);
             this.AnswerTextBox_1.TabIndex = 4;
             this.AnswerTextBox_1.Text = "Ответ 1";
             this.AnswerTextBox_1.Click += new System.EventHandler(this.AnswerTextBox_1_Click);
@@ -747,10 +715,9 @@
             // 
             this.AnswerCheckBox_4.AutoSize = true;
             this.AnswerCheckBox_4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AnswerCheckBox_4.Location = new System.Drawing.Point(8, 70);
-            this.AnswerCheckBox_4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerCheckBox_4.Location = new System.Drawing.Point(10, 86);
             this.AnswerCheckBox_4.Name = "AnswerCheckBox_4";
-            this.AnswerCheckBox_4.Size = new System.Drawing.Size(15, 14);
+            this.AnswerCheckBox_4.Size = new System.Drawing.Size(18, 17);
             this.AnswerCheckBox_4.TabIndex = 3;
             this.AnswerCheckBox_4.UseVisualStyleBackColor = true;
             this.AnswerCheckBox_4.CheckedChanged += new System.EventHandler(this.AnswerCheckBox_4_CheckedChanged);
@@ -759,10 +726,9 @@
             // 
             this.AnswerCheckBox_3.AutoSize = true;
             this.AnswerCheckBox_3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AnswerCheckBox_3.Location = new System.Drawing.Point(8, 48);
-            this.AnswerCheckBox_3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerCheckBox_3.Location = new System.Drawing.Point(10, 59);
             this.AnswerCheckBox_3.Name = "AnswerCheckBox_3";
-            this.AnswerCheckBox_3.Size = new System.Drawing.Size(15, 14);
+            this.AnswerCheckBox_3.Size = new System.Drawing.Size(18, 17);
             this.AnswerCheckBox_3.TabIndex = 2;
             this.AnswerCheckBox_3.UseVisualStyleBackColor = true;
             this.AnswerCheckBox_3.CheckedChanged += new System.EventHandler(this.AnswerCheckBox_3_CheckedChanged);
@@ -771,10 +737,9 @@
             // 
             this.AnswerCheckBox_2.AutoSize = true;
             this.AnswerCheckBox_2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AnswerCheckBox_2.Location = new System.Drawing.Point(8, 26);
-            this.AnswerCheckBox_2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerCheckBox_2.Location = new System.Drawing.Point(10, 32);
             this.AnswerCheckBox_2.Name = "AnswerCheckBox_2";
-            this.AnswerCheckBox_2.Size = new System.Drawing.Size(15, 14);
+            this.AnswerCheckBox_2.Size = new System.Drawing.Size(18, 17);
             this.AnswerCheckBox_2.TabIndex = 1;
             this.AnswerCheckBox_2.UseVisualStyleBackColor = true;
             this.AnswerCheckBox_2.CheckedChanged += new System.EventHandler(this.AnswerCheckBox_2_CheckedChanged);
@@ -783,10 +748,9 @@
             // 
             this.AnswerCheckBox_1.AutoSize = true;
             this.AnswerCheckBox_1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AnswerCheckBox_1.Location = new System.Drawing.Point(8, 4);
-            this.AnswerCheckBox_1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerCheckBox_1.Location = new System.Drawing.Point(10, 5);
             this.AnswerCheckBox_1.Name = "AnswerCheckBox_1";
-            this.AnswerCheckBox_1.Size = new System.Drawing.Size(15, 14);
+            this.AnswerCheckBox_1.Size = new System.Drawing.Size(18, 17);
             this.AnswerCheckBox_1.TabIndex = 0;
             this.AnswerCheckBox_1.UseVisualStyleBackColor = true;
             this.AnswerCheckBox_1.CheckedChanged += new System.EventHandler(this.AnswerCheckBox_1_CheckedChanged);
@@ -798,10 +762,9 @@
             this.InputAnswerPanel.Controls.Add(this.InputTextAnswerBox);
             this.InputAnswerPanel.Controls.Add(this.panel4);
             this.InputAnswerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.InputAnswerPanel.Location = new System.Drawing.Point(0, 24);
-            this.InputAnswerPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.InputAnswerPanel.Location = new System.Drawing.Point(0, 29);
             this.InputAnswerPanel.Name = "InputAnswerPanel";
-            this.InputAnswerPanel.Size = new System.Drawing.Size(438, 93);
+            this.InputAnswerPanel.Size = new System.Drawing.Size(562, 115);
             this.InputAnswerPanel.TabIndex = 9;
             this.InputAnswerPanel.Visible = false;
             // 
@@ -811,12 +774,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.InputTextAnswerBox.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.InputTextAnswerBox.Location = new System.Drawing.Point(7, 11);
-            this.InputTextAnswerBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.InputTextAnswerBox.Location = new System.Drawing.Point(9, 13);
             this.InputTextAnswerBox.Multiline = true;
             this.InputTextAnswerBox.Name = "InputTextAnswerBox";
             this.InputTextAnswerBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.InputTextAnswerBox.Size = new System.Drawing.Size(203, 72);
+            this.InputTextAnswerBox.Size = new System.Drawing.Size(249, 89);
             this.InputTextAnswerBox.TabIndex = 9;
             this.InputTextAnswerBox.Click += new System.EventHandler(this.InputTextAnswerBox_Click);
             this.InputTextAnswerBox.TextChanged += new System.EventHandler(this.InputTextAnswerBox_TextChanged);
@@ -829,11 +791,10 @@
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel4.Controls.Add(this.textBox7);
             this.panel4.Controls.Add(this.InputAnswerTextBox1);
-            this.panel4.Location = new System.Drawing.Point(234, 12);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel4.MinimumSize = new System.Drawing.Size(102, 61);
+            this.panel4.Location = new System.Drawing.Point(291, 15);
+            this.panel4.MinimumSize = new System.Drawing.Size(135, 74);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(188, 68);
+            this.panel4.Size = new System.Drawing.Size(250, 84);
             this.panel4.TabIndex = 8;
             // 
             // textBox7
@@ -846,13 +807,12 @@
             this.textBox7.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBox7.Enabled = false;
             this.textBox7.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.textBox7.Location = new System.Drawing.Point(4, 36);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox7.MaximumSize = new System.Drawing.Size(176, 30);
-            this.textBox7.MinimumSize = new System.Drawing.Size(176, 30);
+            this.textBox7.Location = new System.Drawing.Point(6, 44);
+            this.textBox7.MaximumSize = new System.Drawing.Size(234, 37);
+            this.textBox7.MinimumSize = new System.Drawing.Size(234, 37);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(176, 30);
+            this.textBox7.Size = new System.Drawing.Size(234, 37);
             this.textBox7.TabIndex = 9;
             this.textBox7.Text = "Одна строка один ответ";
             this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -867,13 +827,12 @@
             this.InputAnswerTextBox1.Cursor = System.Windows.Forms.Cursors.Default;
             this.InputAnswerTextBox1.Enabled = false;
             this.InputAnswerTextBox1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.InputAnswerTextBox1.Location = new System.Drawing.Point(4, 7);
-            this.InputAnswerTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.InputAnswerTextBox1.MaximumSize = new System.Drawing.Size(176, 30);
-            this.InputAnswerTextBox1.MinimumSize = new System.Drawing.Size(176, 30);
+            this.InputAnswerTextBox1.Location = new System.Drawing.Point(5, 9);
+            this.InputAnswerTextBox1.MaximumSize = new System.Drawing.Size(234, 37);
+            this.InputAnswerTextBox1.MinimumSize = new System.Drawing.Size(234, 37);
             this.InputAnswerTextBox1.Multiline = true;
             this.InputAnswerTextBox1.Name = "InputAnswerTextBox1";
-            this.InputAnswerTextBox1.Size = new System.Drawing.Size(176, 30);
+            this.InputAnswerTextBox1.Size = new System.Drawing.Size(234, 37);
             this.InputAnswerTextBox1.TabIndex = 8;
             this.InputAnswerTextBox1.Text = "Введите все допустимые варианты ответа.";
             this.InputAnswerTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -887,9 +846,8 @@
             this.AnswerTypePpanel.Controls.Add(this.AnswerTypeLabel);
             this.AnswerTypePpanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.AnswerTypePpanel.Location = new System.Drawing.Point(0, 0);
-            this.AnswerTypePpanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.AnswerTypePpanel.Name = "AnswerTypePpanel";
-            this.AnswerTypePpanel.Size = new System.Drawing.Size(438, 24);
+            this.AnswerTypePpanel.Size = new System.Drawing.Size(562, 29);
             this.AnswerTypePpanel.TabIndex = 3;
             // 
             // AnswerTypeButton
@@ -899,10 +857,9 @@
             this.AnswerTypeButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AnswerTypeButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.AnswerTypeButton.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.AnswerTypeButton.Location = new System.Drawing.Point(312, 0);
-            this.AnswerTypeButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerTypeButton.Location = new System.Drawing.Point(395, 0);
             this.AnswerTypeButton.Name = "AnswerTypeButton";
-            this.AnswerTypeButton.Size = new System.Drawing.Size(124, 22);
+            this.AnswerTypeButton.Size = new System.Drawing.Size(165, 27);
             this.AnswerTypeButton.TabIndex = 2;
             this.AnswerTypeButton.Text = "предоставить форму";
             this.AnswerTypeButton.UseVisualStyleBackColor = false;
@@ -917,10 +874,9 @@
             "Выбрать единственный верный",
             "Выбрать все верные",
             "Ввести ответ"});
-            this.AnswerTypeBox.Location = new System.Drawing.Point(82, 0);
-            this.AnswerTypeBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AnswerTypeBox.Location = new System.Drawing.Point(109, 0);
             this.AnswerTypeBox.Name = "AnswerTypeBox";
-            this.AnswerTypeBox.Size = new System.Drawing.Size(206, 23);
+            this.AnswerTypeBox.Size = new System.Drawing.Size(274, 26);
             this.AnswerTypeBox.TabIndex = 1;
             this.AnswerTypeBox.TextUpdate += new System.EventHandler(this.AnswerTypeBox_TextUpdate);
             // 
@@ -931,10 +887,9 @@
             this.AnswerTypeLabel.AutoSize = true;
             this.AnswerTypeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.AnswerTypeLabel.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.AnswerTypeLabel.Location = new System.Drawing.Point(2, 2);
-            this.AnswerTypeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.AnswerTypeLabel.Location = new System.Drawing.Point(3, 2);
             this.AnswerTypeLabel.Name = "AnswerTypeLabel";
-            this.AnswerTypeLabel.Size = new System.Drawing.Size(86, 17);
+            this.AnswerTypeLabel.Size = new System.Drawing.Size(109, 20);
             this.AnswerTypeLabel.TabIndex = 0;
             this.AnswerTypeLabel.Text = "Тип ответа:";
             // 
@@ -951,9 +906,8 @@
             this.TaskNamePanel.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.TaskNamePanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.TaskNamePanel.Location = new System.Drawing.Point(0, 0);
-            this.TaskNamePanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TaskNamePanel.Name = "TaskNamePanel";
-            this.TaskNamePanel.Size = new System.Drawing.Size(438, 26);
+            this.TaskNamePanel.Size = new System.Drawing.Size(562, 31);
             this.TaskNamePanel.TabIndex = 0;
             // 
             // TaskNameBox
@@ -964,10 +918,9 @@
             this.TaskNameBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TaskNameBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TaskNameBox.ForeColor = System.Drawing.Color.Lavender;
-            this.TaskNameBox.Location = new System.Drawing.Point(2, 4);
-            this.TaskNameBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TaskNameBox.Location = new System.Drawing.Point(3, 5);
             this.TaskNameBox.Name = "TaskNameBox";
-            this.TaskNameBox.Size = new System.Drawing.Size(206, 17);
+            this.TaskNameBox.Size = new System.Drawing.Size(252, 21);
             this.TaskNameBox.TabIndex = 4;
             this.TaskNameBox.Text = "Имя задачи";
             this.TaskNameBox.TextChanged += new System.EventHandler(this.TaskNameBox_TextChanged);
@@ -978,10 +931,9 @@
             this.RpevTaskButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RpevTaskButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.RpevTaskButton.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.RpevTaskButton.Location = new System.Drawing.Point(212, 0);
-            this.RpevTaskButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RpevTaskButton.Location = new System.Drawing.Point(261, 0);
             this.RpevTaskButton.Name = "RpevTaskButton";
-            this.RpevTaskButton.Size = new System.Drawing.Size(22, 24);
+            this.RpevTaskButton.Size = new System.Drawing.Size(29, 29);
             this.RpevTaskButton.TabIndex = 3;
             this.RpevTaskButton.Text = "<-";
             this.RpevTaskButton.UseVisualStyleBackColor = false;
@@ -993,10 +945,9 @@
             this.NextTaskButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NextTaskButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.NextTaskButton.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.NextTaskButton.Location = new System.Drawing.Point(234, 0);
-            this.NextTaskButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NextTaskButton.Location = new System.Drawing.Point(290, 0);
             this.NextTaskButton.Name = "NextTaskButton";
-            this.NextTaskButton.Size = new System.Drawing.Size(22, 24);
+            this.NextTaskButton.Size = new System.Drawing.Size(30, 29);
             this.NextTaskButton.TabIndex = 2;
             this.NextTaskButton.Text = "->";
             this.NextTaskButton.UseVisualStyleBackColor = false;
@@ -1008,10 +959,9 @@
             this.TaskBackButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TaskBackButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.TaskBackButton.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.TaskBackButton.Location = new System.Drawing.Point(256, 0);
-            this.TaskBackButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TaskBackButton.Location = new System.Drawing.Point(320, 0);
             this.TaskBackButton.Name = "TaskBackButton";
-            this.TaskBackButton.Size = new System.Drawing.Size(88, 24);
+            this.TaskBackButton.Size = new System.Drawing.Size(117, 29);
             this.TaskBackButton.TabIndex = 1;
             this.TaskBackButton.Text = "Вернуться";
             this.TaskBackButton.UseVisualStyleBackColor = false;
@@ -1024,10 +974,9 @@
             this.TaskSaveButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.TaskSaveButton.Enabled = false;
             this.TaskSaveButton.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.TaskSaveButton.Location = new System.Drawing.Point(344, 0);
-            this.TaskSaveButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TaskSaveButton.Location = new System.Drawing.Point(437, 0);
             this.TaskSaveButton.Name = "TaskSaveButton";
-            this.TaskSaveButton.Size = new System.Drawing.Size(70, 24);
+            this.TaskSaveButton.Size = new System.Drawing.Size(94, 29);
             this.TaskSaveButton.TabIndex = 1;
             this.TaskSaveButton.Text = "Сохранить";
             this.TaskSaveButton.UseVisualStyleBackColor = false;
@@ -1039,10 +988,9 @@
             this.TaskCloseButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TaskCloseButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.TaskCloseButton.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.TaskCloseButton.Location = new System.Drawing.Point(414, 0);
-            this.TaskCloseButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TaskCloseButton.Location = new System.Drawing.Point(531, 0);
             this.TaskCloseButton.Name = "TaskCloseButton";
-            this.TaskCloseButton.Size = new System.Drawing.Size(22, 24);
+            this.TaskCloseButton.Size = new System.Drawing.Size(29, 29);
             this.TaskCloseButton.TabIndex = 1;
             this.TaskCloseButton.Text = "X";
             this.TaskCloseButton.UseVisualStyleBackColor = false;
@@ -1065,18 +1013,17 @@
             this.panel2.BackColor = System.Drawing.SystemColors.Window;
             this.panel2.BackgroundImage = global::CourseCreater.Properties.Resources.turtle_cute;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel2.Location = new System.Drawing.Point(-8, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(599, 266);
+            this.panel2.Size = new System.Drawing.Size(758, 303);
             this.panel2.TabIndex = 2;
             // 
             // CourseCreater
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(592, 339);
+            this.ClientSize = new System.Drawing.Size(758, 393);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.WorkPanel);
             this.Controls.Add(this.menuPanel);
@@ -1084,7 +1031,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuPanel;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MinimumSize = new System.Drawing.Size(780, 444);
             this.Name = "CourseCreater";
             this.Text = "CourseCreater";
             this.menuPanel.ResumeLayout(false);

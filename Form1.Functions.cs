@@ -19,9 +19,11 @@ namespace CourseCreater
         int nCurrentTask = -1;
         bool isSavingNow = false;
         bool isTaskSaved = true;
+        public List<AnswerBox> oneCheckedAnswerBoxes = new List<AnswerBox>();
+        public List<AnswerBox> multyCheckedAnswerBoxes = new List<AnswerBox>();
         AnswerBox[] answerBoxForOneAnswer = new AnswerBox[4];
         AnswerBox[] answerBoxForAllAnswers = new AnswerBox[4];
-        Course course;
+        Course course = new Course(null, null);
 
         private void Init()
         {
