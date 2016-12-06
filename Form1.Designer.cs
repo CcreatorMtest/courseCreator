@@ -1035,7 +1035,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuPanel;
-            this.MinimumSize = new System.Drawing.Size(760, 440);
+            this.MinimumSize = new System.Drawing.Size(840, 440);
             this.Name = "CourseCreater";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "CourseCreater";
