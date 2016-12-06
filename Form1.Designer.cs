@@ -50,11 +50,12 @@
             this.picturePanel = new System.Windows.Forms.Panel();
             this.OpenCoursebtn = new System.Windows.Forms.Button();
             this.CreateCoursebtn = new System.Windows.Forms.Button();
-            this.TaskPanels = new System.Windows.Forms.SplitContainer();
+            this.TasksPanel = new System.Windows.Forms.Panel();
             this.SaveCourseButton = new System.Windows.Forms.Button();
             this.TaskCreateButton = new System.Windows.Forms.Button();
             this.TaskListBox = new System.Windows.Forms.ListBox();
             this.TaskListLabel = new System.Windows.Forms.Label();
+            this.TaskPanel = new System.Windows.Forms.Panel();
             this.TaskRedaktorPanel = new System.Windows.Forms.Panel();
             this.TaskRedaktorBox = new System.Windows.Forms.TextBox();
             this.AnswerPanel = new System.Windows.Forms.Panel();
@@ -102,10 +103,8 @@
             this.menuPanel.SuspendLayout();
             this.WorkPanel.SuspendLayout();
             this.picturePanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.TaskPanels)).BeginInit();
-            this.TaskPanels.Panel1.SuspendLayout();
-            this.TaskPanels.Panel2.SuspendLayout();
-            this.TaskPanels.SuspendLayout();
+            this.TasksPanel.SuspendLayout();
+            this.TaskPanel.SuspendLayout();
             this.TaskRedaktorPanel.SuspendLayout();
             this.AnswerPanel.SuspendLayout();
             this.ChoiseOneAnswerPanel.SuspendLayout();
@@ -128,7 +127,7 @@
             this.курсToolStripMenuItem});
             this.menuPanel.Location = new System.Drawing.Point(0, 0);
             this.menuPanel.Name = "menuPanel";
-            this.menuPanel.Size = new System.Drawing.Size(758, 28);
+            this.menuPanel.Size = new System.Drawing.Size(766, 28);
             this.menuPanel.TabIndex = 0;
             this.menuPanel.Text = "menuStrip1";
             // 
@@ -257,6 +256,7 @@
             this.добавитьЗадачуToolStripMenuItem.Name = "добавитьЗадачуToolStripMenuItem";
             this.добавитьЗадачуToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.добавитьЗадачуToolStripMenuItem.Text = "Добавить задачу";
+            this.добавитьЗадачуToolStripMenuItem.Click += new System.EventHandler(this.добавитьЗадачуToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
@@ -267,11 +267,12 @@
             // WorkPanel
             // 
             this.WorkPanel.Controls.Add(this.picturePanel);
-            this.WorkPanel.Controls.Add(this.TaskPanels);
+            this.WorkPanel.Controls.Add(this.TasksPanel);
+            this.WorkPanel.Controls.Add(this.TaskPanel);
             this.WorkPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.WorkPanel.Location = new System.Drawing.Point(0, 28);
             this.WorkPanel.Name = "WorkPanel";
-            this.WorkPanel.Size = new System.Drawing.Size(758, 365);
+            this.WorkPanel.Size = new System.Drawing.Size(766, 381);
             this.WorkPanel.TabIndex = 1;
             // 
             // picturePanel
@@ -283,64 +284,50 @@
             this.picturePanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picturePanel.Location = new System.Drawing.Point(0, 0);
             this.picturePanel.Name = "picturePanel";
-            this.picturePanel.Size = new System.Drawing.Size(758, 365);
+            this.picturePanel.Size = new System.Drawing.Size(766, 381);
             this.picturePanel.TabIndex = 1;
             // 
             // OpenCoursebtn
             // 
             this.OpenCoursebtn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.OpenCoursebtn.Location = new System.Drawing.Point(245, 315);
+            this.OpenCoursebtn.BackColor = System.Drawing.Color.Lavender;
+            this.OpenCoursebtn.Location = new System.Drawing.Point(249, 331);
             this.OpenCoursebtn.MaximumSize = new System.Drawing.Size(300, 40);
             this.OpenCoursebtn.Name = "OpenCoursebtn";
             this.OpenCoursebtn.Size = new System.Drawing.Size(259, 29);
             this.OpenCoursebtn.TabIndex = 1;
             this.OpenCoursebtn.Text = "Открыть курс";
-            this.OpenCoursebtn.UseVisualStyleBackColor = true;
+            this.OpenCoursebtn.UseVisualStyleBackColor = false;
             this.OpenCoursebtn.Click += new System.EventHandler(this.OpenCoursebtn_Click);
             // 
             // CreateCoursebtn
             // 
             this.CreateCoursebtn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.CreateCoursebtn.Location = new System.Drawing.Point(245, 275);
+            this.CreateCoursebtn.BackColor = System.Drawing.Color.Lavender;
+            this.CreateCoursebtn.Location = new System.Drawing.Point(249, 291);
             this.CreateCoursebtn.MaximumSize = new System.Drawing.Size(300, 40);
             this.CreateCoursebtn.Name = "CreateCoursebtn";
             this.CreateCoursebtn.Size = new System.Drawing.Size(259, 31);
             this.CreateCoursebtn.TabIndex = 0;
             this.CreateCoursebtn.Text = "Создать курс";
-            this.CreateCoursebtn.UseVisualStyleBackColor = true;
+            this.CreateCoursebtn.UseVisualStyleBackColor = false;
             this.CreateCoursebtn.Click += new System.EventHandler(this.button1_Click);
             // 
-            // TaskPanels
+            // TasksPanel
             // 
-            this.TaskPanels.BackColor = System.Drawing.Color.Lavender;
-            this.TaskPanels.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.TaskPanels.Cursor = System.Windows.Forms.Cursors.VSplit;
-            this.TaskPanels.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TaskPanels.Location = new System.Drawing.Point(0, 0);
-            this.TaskPanels.MinimumSize = new System.Drawing.Size(753, 258);
-            this.TaskPanels.Name = "TaskPanels";
-            // 
-            // TaskPanels.Panel1
-            // 
-            this.TaskPanels.Panel1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.TaskPanels.Panel1.Controls.Add(this.SaveCourseButton);
-            this.TaskPanels.Panel1.Controls.Add(this.TaskCreateButton);
-            this.TaskPanels.Panel1.Controls.Add(this.TaskListBox);
-            this.TaskPanels.Panel1.Controls.Add(this.TaskListLabel);
-            this.TaskPanels.Panel1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.TaskPanels.Panel1MinSize = 185;
-            // 
-            // TaskPanels.Panel2
-            // 
-            this.TaskPanels.Panel2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.TaskPanels.Panel2.Controls.Add(this.TaskRedaktorPanel);
-            this.TaskPanels.Panel2.Controls.Add(this.AnswerPanel);
-            this.TaskPanels.Panel2.Controls.Add(this.TaskNamePanel);
-            this.TaskPanels.Panel2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TaskPanels.Panel2MinSize = 560;
-            this.TaskPanels.Size = new System.Drawing.Size(758, 365);
-            this.TaskPanels.SplitterDistance = 188;
-            this.TaskPanels.TabIndex = 0;
+            this.TasksPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.TasksPanel.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.TasksPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.TasksPanel.Controls.Add(this.SaveCourseButton);
+            this.TasksPanel.Controls.Add(this.TaskCreateButton);
+            this.TasksPanel.Controls.Add(this.TaskListBox);
+            this.TasksPanel.Controls.Add(this.TaskListLabel);
+            this.TasksPanel.Cursor = System.Windows.Forms.Cursors.Default;
+            this.TasksPanel.Location = new System.Drawing.Point(0, 0);
+            this.TasksPanel.Name = "TasksPanel";
+            this.TasksPanel.Size = new System.Drawing.Size(WorkPanel.Width / 3, 381);
+            this.TasksPanel.TabIndex = 2;
             // 
             // SaveCourseButton
             // 
@@ -348,9 +335,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SaveCourseButton.BackColor = System.Drawing.Color.Lavender;
             this.SaveCourseButton.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.SaveCourseButton.Location = new System.Drawing.Point(10, 323);
+            this.SaveCourseButton.Location = new System.Drawing.Point(10, 340);
             this.SaveCourseButton.Name = "SaveCourseButton";
-            this.SaveCourseButton.Size = new System.Drawing.Size(165, 28);
+            this.SaveCourseButton.Size = new System.Drawing.Size(TasksPanel.Width - 20, 28);
             this.SaveCourseButton.TabIndex = 0;
             this.SaveCourseButton.Text = "Сохранить курс";
             this.SaveCourseButton.UseVisualStyleBackColor = false;
@@ -363,9 +350,9 @@
             this.TaskCreateButton.BackColor = System.Drawing.Color.Lavender;
             this.TaskCreateButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TaskCreateButton.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.TaskCreateButton.Location = new System.Drawing.Point(10, 282);
+            this.TaskCreateButton.Location = new System.Drawing.Point(10, 303);
             this.TaskCreateButton.Name = "TaskCreateButton";
-            this.TaskCreateButton.Size = new System.Drawing.Size(165, 29);
+            this.TaskCreateButton.Size = new System.Drawing.Size(TasksPanel.Width - 20, 29);
             this.TaskCreateButton.TabIndex = 0;
             this.TaskCreateButton.Text = "Добавить задачу";
             this.TaskCreateButton.UseVisualStyleBackColor = false;
@@ -380,10 +367,11 @@
             this.TaskListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TaskListBox.ForeColor = System.Drawing.Color.MidnightBlue;
             this.TaskListBox.FormattingEnabled = true;
+            this.TaskListBox.HorizontalScrollbar = true;
             this.TaskListBox.ItemHeight = 20;
-            this.TaskListBox.Location = new System.Drawing.Point(10, 38);
+            this.TaskListBox.Location = new System.Drawing.Point(8, 38);
             this.TaskListBox.Name = "TaskListBox";
-            this.TaskListBox.Size = new System.Drawing.Size(165, 204);
+            this.TaskListBox.Size = new System.Drawing.Size(TasksPanel.Width - 16, 244);
             this.TaskListBox.TabIndex = 1;
             this.TaskListBox.SelectedIndexChanged += new System.EventHandler(this.TaskListBox_SelectedIndexChanged);
             // 
@@ -398,6 +386,22 @@
             this.TaskListLabel.TabIndex = 0;
             this.TaskListLabel.Text = "Список задач";
             // 
+            // TaskPanel
+            // 
+            this.TaskPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.TaskPanel.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.TaskPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.TaskPanel.Controls.Add(this.TaskRedaktorPanel);
+            this.TaskPanel.Controls.Add(this.AnswerPanel);
+            this.TaskPanel.Controls.Add(this.TaskNamePanel);
+            this.TaskPanel.Cursor = System.Windows.Forms.Cursors.Default;
+            this.TaskPanel.Location = new System.Drawing.Point(WorkPanel.Width / 3, 0);
+            this.TaskPanel.Name = "TaskPanel";
+            this.TaskPanel.Size = new System.Drawing.Size(WorkPanel.Width * 2 / 3, 381);
+            this.TaskPanel.TabIndex = 0;
+            // 
             // TaskRedaktorPanel
             // 
             this.TaskRedaktorPanel.BackColor = System.Drawing.SystemColors.ControlDark;
@@ -405,7 +409,7 @@
             this.TaskRedaktorPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TaskRedaktorPanel.Location = new System.Drawing.Point(0, 31);
             this.TaskRedaktorPanel.Name = "TaskRedaktorPanel";
-            this.TaskRedaktorPanel.Size = new System.Drawing.Size(562, 186);
+            this.TaskRedaktorPanel.Size = new System.Drawing.Size(534, 202);
             this.TaskRedaktorPanel.TabIndex = 3;
             // 
             // TaskRedaktorBox
@@ -418,7 +422,7 @@
             this.TaskRedaktorBox.Multiline = true;
             this.TaskRedaktorBox.Name = "TaskRedaktorBox";
             this.TaskRedaktorBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TaskRedaktorBox.Size = new System.Drawing.Size(562, 186);
+            this.TaskRedaktorBox.Size = new System.Drawing.Size(534, 202);
             this.TaskRedaktorBox.TabIndex = 0;
             this.TaskRedaktorBox.TextChanged += new System.EventHandler(this.TaskRedaktorBox_TextChanged);
             // 
@@ -431,9 +435,9 @@
             this.AnswerPanel.Controls.Add(this.AnswerTypePpanel);
             this.AnswerPanel.Cursor = System.Windows.Forms.Cursors.Default;
             this.AnswerPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.AnswerPanel.Location = new System.Drawing.Point(0, 217);
+            this.AnswerPanel.Location = new System.Drawing.Point(0, 233);
             this.AnswerPanel.Name = "AnswerPanel";
-            this.AnswerPanel.Size = new System.Drawing.Size(562, 144);
+            this.AnswerPanel.Size = new System.Drawing.Size(534, 144);
             this.AnswerPanel.TabIndex = 2;
             // 
             // ChoiseOneAnswerPanel
@@ -452,7 +456,7 @@
             this.ChoiseOneAnswerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ChoiseOneAnswerPanel.Location = new System.Drawing.Point(0, 29);
             this.ChoiseOneAnswerPanel.Name = "ChoiseOneAnswerPanel";
-            this.ChoiseOneAnswerPanel.Size = new System.Drawing.Size(562, 115);
+            this.ChoiseOneAnswerPanel.Size = new System.Drawing.Size(534, 115);
             this.ChoiseOneAnswerPanel.TabIndex = 4;
             this.ChoiseOneAnswerPanel.Visible = false;
             // 
@@ -462,7 +466,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.HelpTextBox);
-            this.panel1.Location = new System.Drawing.Point(394, 15);
+            this.panel1.Location = new System.Drawing.Point(366, 15);
             this.panel1.MinimumSize = new System.Drawing.Size(135, 74);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(147, 174);
@@ -497,7 +501,7 @@
             this.AnswerTextBox4.ForeColor = System.Drawing.Color.LightSlateGray;
             this.AnswerTextBox4.Location = new System.Drawing.Point(34, 85);
             this.AnswerTextBox4.Name = "AnswerTextBox4";
-            this.AnswerTextBox4.Size = new System.Drawing.Size(353, 15);
+            this.AnswerTextBox4.Size = new System.Drawing.Size(325, 15);
             this.AnswerTextBox4.TabIndex = 7;
             this.AnswerTextBox4.Text = "Пусто";
             this.AnswerTextBox4.Click += new System.EventHandler(this.AnswerTextBox4_Click);
@@ -513,7 +517,7 @@
             this.AnswerTextBox3.ForeColor = System.Drawing.Color.LightSlateGray;
             this.AnswerTextBox3.Location = new System.Drawing.Point(34, 58);
             this.AnswerTextBox3.Name = "AnswerTextBox3";
-            this.AnswerTextBox3.Size = new System.Drawing.Size(353, 15);
+            this.AnswerTextBox3.Size = new System.Drawing.Size(325, 15);
             this.AnswerTextBox3.TabIndex = 6;
             this.AnswerTextBox3.Text = "Пусто";
             this.AnswerTextBox3.Click += new System.EventHandler(this.AnswerTextBox3_Click);
@@ -529,7 +533,7 @@
             this.AnswerTextBox2.ForeColor = System.Drawing.Color.MidnightBlue;
             this.AnswerTextBox2.Location = new System.Drawing.Point(34, 31);
             this.AnswerTextBox2.Name = "AnswerTextBox2";
-            this.AnswerTextBox2.Size = new System.Drawing.Size(353, 15);
+            this.AnswerTextBox2.Size = new System.Drawing.Size(325, 15);
             this.AnswerTextBox2.TabIndex = 5;
             this.AnswerTextBox2.Text = "Ответ 2";
             this.AnswerTextBox2.Click += new System.EventHandler(this.AnswerTextBox2_Click);
@@ -544,7 +548,7 @@
             this.AnswerTextBox1.ForeColor = System.Drawing.Color.MidnightBlue;
             this.AnswerTextBox1.Location = new System.Drawing.Point(34, 4);
             this.AnswerTextBox1.Name = "AnswerTextBox1";
-            this.AnswerTextBox1.Size = new System.Drawing.Size(353, 15);
+            this.AnswerTextBox1.Size = new System.Drawing.Size(325, 15);
             this.AnswerTextBox1.TabIndex = 4;
             this.AnswerTextBox1.Text = "Ответ 1";
             this.AnswerTextBox1.Click += new System.EventHandler(this.AnswerTextBox1_Click);
@@ -611,7 +615,7 @@
             this.ChoiseAllAnswersPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ChoiseAllAnswersPanel.Location = new System.Drawing.Point(0, 29);
             this.ChoiseAllAnswersPanel.Name = "ChoiseAllAnswersPanel";
-            this.ChoiseAllAnswersPanel.Size = new System.Drawing.Size(562, 115);
+            this.ChoiseAllAnswersPanel.Size = new System.Drawing.Size(534, 115);
             this.ChoiseAllAnswersPanel.TabIndex = 9;
             this.ChoiseAllAnswersPanel.Visible = false;
             // 
@@ -621,7 +625,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.textBox1);
-            this.panel3.Location = new System.Drawing.Point(394, 15);
+            this.panel3.Location = new System.Drawing.Point(366, 15);
             this.panel3.MinimumSize = new System.Drawing.Size(135, 74);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(147, 174);
@@ -656,7 +660,7 @@
             this.AnswerTextBox_4.ForeColor = System.Drawing.Color.LightSlateGray;
             this.AnswerTextBox_4.Location = new System.Drawing.Point(34, 85);
             this.AnswerTextBox_4.Name = "AnswerTextBox_4";
-            this.AnswerTextBox_4.Size = new System.Drawing.Size(354, 15);
+            this.AnswerTextBox_4.Size = new System.Drawing.Size(326, 15);
             this.AnswerTextBox_4.TabIndex = 7;
             this.AnswerTextBox_4.Text = "Пусто";
             this.AnswerTextBox_4.Click += new System.EventHandler(this.AnswerTextBox_4_Click);
@@ -672,7 +676,7 @@
             this.AnswerTextBox_3.ForeColor = System.Drawing.Color.LightSlateGray;
             this.AnswerTextBox_3.Location = new System.Drawing.Point(34, 58);
             this.AnswerTextBox_3.Name = "AnswerTextBox_3";
-            this.AnswerTextBox_3.Size = new System.Drawing.Size(354, 15);
+            this.AnswerTextBox_3.Size = new System.Drawing.Size(326, 15);
             this.AnswerTextBox_3.TabIndex = 6;
             this.AnswerTextBox_3.Text = "Пусто";
             this.AnswerTextBox_3.Click += new System.EventHandler(this.AnswerTextBox_3_Click);
@@ -688,7 +692,7 @@
             this.AnswerTextBox_2.ForeColor = System.Drawing.Color.MidnightBlue;
             this.AnswerTextBox_2.Location = new System.Drawing.Point(34, 31);
             this.AnswerTextBox_2.Name = "AnswerTextBox_2";
-            this.AnswerTextBox_2.Size = new System.Drawing.Size(354, 15);
+            this.AnswerTextBox_2.Size = new System.Drawing.Size(326, 15);
             this.AnswerTextBox_2.TabIndex = 5;
             this.AnswerTextBox_2.Text = "Ответ 2";
             this.AnswerTextBox_2.Click += new System.EventHandler(this.AnswerTextBox_2_Click);
@@ -704,7 +708,7 @@
             this.AnswerTextBox_1.ForeColor = System.Drawing.Color.MidnightBlue;
             this.AnswerTextBox_1.Location = new System.Drawing.Point(34, 4);
             this.AnswerTextBox_1.Name = "AnswerTextBox_1";
-            this.AnswerTextBox_1.Size = new System.Drawing.Size(354, 15);
+            this.AnswerTextBox_1.Size = new System.Drawing.Size(326, 15);
             this.AnswerTextBox_1.TabIndex = 4;
             this.AnswerTextBox_1.Text = "Ответ 1";
             this.AnswerTextBox_1.Click += new System.EventHandler(this.AnswerTextBox_1_Click);
@@ -764,7 +768,7 @@
             this.InputAnswerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.InputAnswerPanel.Location = new System.Drawing.Point(0, 29);
             this.InputAnswerPanel.Name = "InputAnswerPanel";
-            this.InputAnswerPanel.Size = new System.Drawing.Size(562, 115);
+            this.InputAnswerPanel.Size = new System.Drawing.Size(534, 115);
             this.InputAnswerPanel.TabIndex = 9;
             this.InputAnswerPanel.Visible = false;
             // 
@@ -778,7 +782,7 @@
             this.InputTextAnswerBox.Multiline = true;
             this.InputTextAnswerBox.Name = "InputTextAnswerBox";
             this.InputTextAnswerBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.InputTextAnswerBox.Size = new System.Drawing.Size(249, 89);
+            this.InputTextAnswerBox.Size = new System.Drawing.Size(221, 89);
             this.InputTextAnswerBox.TabIndex = 9;
             this.InputTextAnswerBox.Click += new System.EventHandler(this.InputTextAnswerBox_Click);
             this.InputTextAnswerBox.TextChanged += new System.EventHandler(this.InputTextAnswerBox_TextChanged);
@@ -791,7 +795,7 @@
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel4.Controls.Add(this.textBox7);
             this.panel4.Controls.Add(this.InputAnswerTextBox1);
-            this.panel4.Location = new System.Drawing.Point(291, 15);
+            this.panel4.Location = new System.Drawing.Point(263, 15);
             this.panel4.MinimumSize = new System.Drawing.Size(135, 74);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(250, 84);
@@ -847,7 +851,7 @@
             this.AnswerTypePpanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.AnswerTypePpanel.Location = new System.Drawing.Point(0, 0);
             this.AnswerTypePpanel.Name = "AnswerTypePpanel";
-            this.AnswerTypePpanel.Size = new System.Drawing.Size(562, 29);
+            this.AnswerTypePpanel.Size = new System.Drawing.Size(534, 29);
             this.AnswerTypePpanel.TabIndex = 3;
             // 
             // AnswerTypeButton
@@ -857,7 +861,7 @@
             this.AnswerTypeButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AnswerTypeButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.AnswerTypeButton.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.AnswerTypeButton.Location = new System.Drawing.Point(395, 0);
+            this.AnswerTypeButton.Location = new System.Drawing.Point(367, 0);
             this.AnswerTypeButton.Name = "AnswerTypeButton";
             this.AnswerTypeButton.Size = new System.Drawing.Size(165, 27);
             this.AnswerTypeButton.TabIndex = 2;
@@ -907,7 +911,7 @@
             this.TaskNamePanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.TaskNamePanel.Location = new System.Drawing.Point(0, 0);
             this.TaskNamePanel.Name = "TaskNamePanel";
-            this.TaskNamePanel.Size = new System.Drawing.Size(562, 31);
+            this.TaskNamePanel.Size = new System.Drawing.Size(534, 31);
             this.TaskNamePanel.TabIndex = 0;
             // 
             // TaskNameBox
@@ -920,7 +924,7 @@
             this.TaskNameBox.ForeColor = System.Drawing.Color.Lavender;
             this.TaskNameBox.Location = new System.Drawing.Point(3, 5);
             this.TaskNameBox.Name = "TaskNameBox";
-            this.TaskNameBox.Size = new System.Drawing.Size(252, 21);
+            this.TaskNameBox.Size = new System.Drawing.Size(224, 21);
             this.TaskNameBox.TabIndex = 4;
             this.TaskNameBox.Text = "Имя задачи";
             this.TaskNameBox.TextChanged += new System.EventHandler(this.TaskNameBox_TextChanged);
@@ -931,11 +935,11 @@
             this.RpevTaskButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RpevTaskButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.RpevTaskButton.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.RpevTaskButton.Location = new System.Drawing.Point(261, 0);
+            this.RpevTaskButton.Location = new System.Drawing.Point(233, 0);
             this.RpevTaskButton.Name = "RpevTaskButton";
             this.RpevTaskButton.Size = new System.Drawing.Size(29, 29);
             this.RpevTaskButton.TabIndex = 3;
-            this.RpevTaskButton.Text = "<-";
+            this.RpevTaskButton.Text = "<";
             this.RpevTaskButton.UseVisualStyleBackColor = false;
             this.RpevTaskButton.Click += new System.EventHandler(this.RpevTaskButton_Click);
             // 
@@ -945,11 +949,11 @@
             this.NextTaskButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NextTaskButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.NextTaskButton.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.NextTaskButton.Location = new System.Drawing.Point(290, 0);
+            this.NextTaskButton.Location = new System.Drawing.Point(262, 0);
             this.NextTaskButton.Name = "NextTaskButton";
             this.NextTaskButton.Size = new System.Drawing.Size(30, 29);
             this.NextTaskButton.TabIndex = 2;
-            this.NextTaskButton.Text = "->";
+            this.NextTaskButton.Text = ">";
             this.NextTaskButton.UseVisualStyleBackColor = false;
             this.NextTaskButton.Click += new System.EventHandler(this.NextTaskButton_Click);
             // 
@@ -959,7 +963,7 @@
             this.TaskBackButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TaskBackButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.TaskBackButton.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.TaskBackButton.Location = new System.Drawing.Point(320, 0);
+            this.TaskBackButton.Location = new System.Drawing.Point(292, 0);
             this.TaskBackButton.Name = "TaskBackButton";
             this.TaskBackButton.Size = new System.Drawing.Size(117, 29);
             this.TaskBackButton.TabIndex = 1;
@@ -974,7 +978,7 @@
             this.TaskSaveButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.TaskSaveButton.Enabled = false;
             this.TaskSaveButton.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.TaskSaveButton.Location = new System.Drawing.Point(437, 0);
+            this.TaskSaveButton.Location = new System.Drawing.Point(409, 0);
             this.TaskSaveButton.Name = "TaskSaveButton";
             this.TaskSaveButton.Size = new System.Drawing.Size(94, 29);
             this.TaskSaveButton.TabIndex = 1;
@@ -988,7 +992,7 @@
             this.TaskCloseButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TaskCloseButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.TaskCloseButton.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.TaskCloseButton.Location = new System.Drawing.Point(531, 0);
+            this.TaskCloseButton.Location = new System.Drawing.Point(503, 0);
             this.TaskCloseButton.Name = "TaskCloseButton";
             this.TaskCloseButton.Size = new System.Drawing.Size(29, 29);
             this.TaskCloseButton.TabIndex = 1;
@@ -1015,7 +1019,7 @@
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(758, 303);
+            this.panel2.Size = new System.Drawing.Size(766, 313);
             this.panel2.TabIndex = 2;
             // 
             // CourseCreater
@@ -1023,7 +1027,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(758, 393);
+            this.ClientSize = new System.Drawing.Size(766, 409);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.WorkPanel);
             this.Controls.Add(this.menuPanel);
@@ -1031,18 +1035,18 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuPanel;
-            this.MinimumSize = new System.Drawing.Size(780, 444);
+            this.MinimumSize = new System.Drawing.Size(760, 440);
             this.Name = "CourseCreater";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "CourseCreater";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuPanel.ResumeLayout(false);
             this.menuPanel.PerformLayout();
             this.WorkPanel.ResumeLayout(false);
             this.picturePanel.ResumeLayout(false);
-            this.TaskPanels.Panel1.ResumeLayout(false);
-            this.TaskPanels.Panel1.PerformLayout();
-            this.TaskPanels.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.TaskPanels)).EndInit();
-            this.TaskPanels.ResumeLayout(false);
+            this.TasksPanel.ResumeLayout(false);
+            this.TasksPanel.PerformLayout();
+            this.TaskPanel.ResumeLayout(false);
             this.TaskRedaktorPanel.ResumeLayout(false);
             this.TaskRedaktorPanel.PerformLayout();
             this.AnswerPanel.ResumeLayout(false);
@@ -1084,7 +1088,9 @@
         private System.Windows.Forms.ToolStripMenuItem добавитьЗадачуToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.Panel WorkPanel;
-        private System.Windows.Forms.SplitContainer TaskPanels;
+        //private System.Windows.Forms.SplitContainer TaskPanels;
+        private System.Windows.Forms.Panel TasksPanel;
+        private System.Windows.Forms.Panel TaskPanel;
         private System.Windows.Forms.Button TaskCreateButton;
         private System.Windows.Forms.ListBox TaskListBox;
         private System.Windows.Forms.Label TaskListLabel;

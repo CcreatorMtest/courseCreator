@@ -500,7 +500,7 @@ namespace CourseCreater
                 if (result == DialogResult.Cancel)
                     return;
             }
-            TaskPanels.Visible = true;
+            //TaskPanels.Visible = true;
 
             course.fileName = null;
             course.Name = null;
@@ -543,7 +543,7 @@ namespace CourseCreater
                 if (result == DialogResult.Cancel)
                     return;
             }
-            TaskPanels.Visible = true;
+            //TaskPanels.Visible = true;
 
             course.fileName = null;
             course.Name = null;
@@ -567,6 +567,44 @@ namespace CourseCreater
         {
             OpenCourse();
             panel2.Visible = false;
+        }
+
+        private void добавитьЗадачуToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (!isTaskSaved)
+            {
+                DialogResult result = MessageBox.Show("Задача не была сохранена. Уверены, что хотите перейти к другой", "ПРЕДУПРЕЖДЕНИЕ", MessageBoxButtons.YesNo);
+                if (result == DialogResult.No)
+                    return;
+            }
+
+            if (course.Tasks != null)
+                nCurrentTask = course.Tasks.Length;
+            else
+                nCurrentTask = 0;
+
+            TaskNameBox.Text = "";
+            TaskRedaktorBox.Text = "";
+            num = 2;
+            AnswerTypeBox.Text = "Ввести ответ";
+            ChoiseOneAnswerPanel.Visible = false;
+            ChoiseAllAnswersPanel.Visible = false;
+            InputAnswerPanel.Visible = true;
+            InputTextAnswerBox.Text = "Допустимый ответ 1" + Environment.NewLine + "Допустимый ответ 2";
+            InputTextAnswerBox.ForeColor = Color.LightSlateGray;
+
+            isTaskSaved = false;
+            TaskSaveButton.Enabled = задачуToolStripMenuItem.Enabled = true;
+
+            isSavingNow = true;
+            TaskListBox.SelectedIndex = -1;
+            isSavingNow = false;
+            RpevTaskButton.Enabled = false;
+            NextTaskButton.Enabled = false;
+
+            TaskRedaktorPanel.Visible = true;
+            AnswerPanel.Visible = true;
+            TaskNamePanel.Visible = true;
         }
     }
 }

@@ -36,7 +36,7 @@ namespace CourseCreater
             nCurrentTask = -1;
             isSavingNow = false;
 
-            TaskPanels.Visible = false;
+            //TaskPanels.Visible = false;
         }
 
         private Task SaveInputTask()
@@ -216,6 +216,24 @@ namespace CourseCreater
         {
             isSavingNow = true;
             string FileName = course.fileName;
+            if (FileName == null)
+            {
+                course = new Course(null, null);
+                course.fileName = null;
+
+                thisCourseTasks.Clear();
+                TaskListBox.SelectedIndex = -1;
+                isSavingNow = true;
+                nCurrentTask = -1;
+                isSavingNow = false;
+                TaskRedaktorPanel.Visible = false;
+                AnswerPanel.Visible = false;
+                TaskNamePanel.Visible = false;
+                isTasksHaveChanges = false;
+                isTaskSaved = true;
+                picturePanel.Visible = false;
+                return;
+            }
             StreamReader sr = new StreamReader(course.fileName);
             course = new Course(sr.ReadToEnd());
             thisCourseTasks.Clear();
@@ -232,11 +250,12 @@ namespace CourseCreater
             TaskRedaktorPanel.Visible = false;
             AnswerPanel.Visible = false;
             TaskNamePanel.Visible = false;
+            isTaskSaved = true;
 
             course.fileName = FileName;
             sr.Close();
             isTasksHaveChanges = false;
-            TaskPanels.Visible = true;
+            //TaskPanels.Visible = true;
             picturePanel.Visible = false;
         }
 
@@ -278,7 +297,7 @@ namespace CourseCreater
                 course.fileName = openFileDialog1.FileName;
                 sr.Close();
                 isTasksHaveChanges = false;
-                TaskPanels.Visible = true;
+                //TaskPanels.Visible = true;
                 picturePanel.Visible = false;
             }
         }
